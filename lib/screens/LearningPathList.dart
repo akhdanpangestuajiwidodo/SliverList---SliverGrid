@@ -35,6 +35,11 @@ class LearningPathList extends StatelessWidget {
         SliverGrid.count(
           crossAxisCount: 2,
           children: flutterPaths.map(_buildTile).toList(),
+        ),
+        _header('Front-End Web Developer'),
+        SliverGrid.count(
+          crossAxisCount: 2,
+          children: webPaths.map(_buildTile).toList(),
         )
       ],
     );
