@@ -25,7 +25,9 @@ class LearningPathList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
-      slivers: [],
+      slivers: [
+        _header('Android Developer'),
+      ],
     );
   }
 }
