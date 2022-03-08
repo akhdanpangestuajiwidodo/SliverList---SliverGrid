@@ -11,22 +11,20 @@ class SliverAppBarDelegate extends SliverPersistentHeaderDelegate{
 
   @override
   Widget build(BuildContext context, double shrinkOffset, bool overlapsContent) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return child;
   }
 
   @override
-  // TODO: implement maxExtent
-  double get maxExtent => throw UnimplementedError();
+  double get maxExtent => maxHeight;
 
   @override
-  // TODO: implement minExtent
-  double get minExtent => throw UnimplementedError();
+  double get minExtent => minHeight;
 
   @override
-  bool shouldRebuild(covariant SliverPersistentHeaderDelegate oldDelegate) {
-    // TODO: implement shouldRebuild
-    throw UnimplementedError();
+  bool shouldRebuild(SliverAppBarDelegate oldDelegate) {
+    return maxHeight != oldDelegate.maxHeight ||
+    minHeight != oldDelegate.minHeight ||
+    child != oldDelegate.child;
   }
 
 }
