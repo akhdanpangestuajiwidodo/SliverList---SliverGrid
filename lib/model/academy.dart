@@ -66,3 +66,31 @@ final List<Academy> iosPaths = [
   ),
 ];
 
+final List<Academy> flutterPaths = [
+  Academy(
+    title: 'Memulai Pemrograman Dengan Dart',
+    description:
+    'Kelas pengantar buat kamu yang ingin mempelajari bahasa populer dari Google untuk mengembangkan aplikasi multiplatform seperti Flutter.',
+  ),
+  Academy(
+    title: 'Belajar Prinsip Pemrograman SOLID',
+    description:
+    'Pelajari kelima prinsip desain yang merupakan pedoman untuk rancangan kode yang baik pada pemrograman berorientasi objek (OOP).',
+  ),
+  Academy(
+    title: 'Belajar Membuat Aplikasi Flutter untuk Pemula',
+    description:
+    'Pelajari cara membuat aplikasi multi-platform pertamamu menggunakan Flutter. Kelas ini mengajarkan mulai dari fundamental hingga widget.',
+  ),
+  Academy(
+    title: 'Belajar Fundamental Aplikasi Flutter',
+    description:
+    'Pelajari skill Flutter dengan kurikulum terlengkap yang dibutuhkan oleh perusahaan seperti advance layouts, interactive widgets dan backend.',
+  ),
+  Academy(
+    title: 'Menjadi Flutter Developer Expert',
+    description:
+    'Tingkatkan skill kamu menjadi seorang Flutter expert dengan kurikulum yang fokus pada case study dan best practice dari pelaku industri.',
+  ),
+];
+
