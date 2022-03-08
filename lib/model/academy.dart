@@ -37,3 +37,32 @@ final List<Academy> androidPaths = [
     'Saatnya menjadi Android Expert dengan belajar Clean Architecture, Reactive, Dependency Injection, Modularization, Performance, dan Security.',
   ),
 ];
+
+final List<Academy> iosPaths = [
+  Academy(
+    title: 'Memulai Pemrograman Dengan Swift',
+    description:
+    'Belajar bahasa Swift buat kamu yang ingin mempelajari konsep Pemrograman Berorientasi Objek (PBO) dalam mengembangkan iOS dan OS X.',
+  ),
+  Academy(
+    title: 'Belajar Prinsip Pemrograman SOLID',
+    description:
+    'Pelajari kelima prinsip desain yang merupakan pedoman untuk rancangan kode yang baik pada pemrograman berorientasi objek (OOP).',
+  ),
+  Academy(
+    title: 'Belajar Membuat Aplikasi iOS untuk Pemula',
+    description:
+    'Pelajari cara membuat aplikasi pertamamu dengan XCode. Kelas ini mengajarkan dasar iOS mulai dari Controller sampai TableViews.',
+  ),
+  Academy(
+    title: 'Belajar Fundamental Aplikasi iOS',
+    description:
+    'Pelajari komponen fundamental iOS berdasarkan teknik yang digunakan industri mulai dari App Design, SwiftUI, Networking, sampai Database.',
+  ),
+  Academy(
+    title: 'Menjadi iOS Developer Expert',
+    description:
+    'Tingkatkan skill kamu menjadi seorang iOS expert dengan kurikulum yang fokus pada case study dan best practice dari pelaku industri.',
+  ),
+];
+
