@@ -94,3 +94,26 @@ final List<Academy> flutterPaths = [
   ),
 ];
 
+final List<Academy> webPaths = [
+  Academy(
+    title: 'Belajar Dasar Pemrograman Web',
+    description:
+    'Pelajari komponen-komponen dasar HTML, CSS, dan JavaScript yang merupakan fondasi utama untuk menjadi Web Developer.',
+  ),
+  Academy(
+    title: 'Belajar Fundamental Front-End Web Development',
+    description:
+    'Pelajari sintaks ES6, Web Component, dan Build Tools dalam membangun website dengan teknik yang simple, reusable, dan optimized.',
+  ),
+  Academy(
+    title: 'Membangun Progressive Web Apps',
+    description:
+    'Pelajari strategi single page application, offline caching, dan push notification agar web Anda memiliki fungsi layaknya aplikasi native.',
+  ),
+  Academy(
+    title: 'Menjadi Front-End Web Developer Expert',
+    description:
+    'Pelajari teknik-teknik expert serta modern dalam membangun website yang optimal pada seluruh perangkat, terutama pada perangkat mobile.',
+  ),
+];
+
