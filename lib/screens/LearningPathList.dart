@@ -28,9 +28,14 @@ class LearningPathList extends StatelessWidget {
     return CustomScrollView(
       slivers: [
         _header('Android Developer'),
-        SliverList(delegate: SliverChildListDelegate(
-          androidPaths.map(_buildTile).toList()
-        ))
+        SliverList(
+            delegate:
+                SliverChildListDelegate(androidPaths.map(_buildTile).toList())),
+        _header('Multi-Platform App Developer'),
+        SliverGrid.count(
+          crossAxisCount: 2,
+          children: flutterPaths.map(_buildTile).toList(),
+        )
       ],
     );
   }
